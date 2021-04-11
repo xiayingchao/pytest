@@ -10,8 +10,7 @@ from class202103271.cases.api_case import ApiCases
 suite = unittest.TestSuite()
 #添加测试用例
 suite.addTest(ApiCases('test_2_info'))
-#suite.addTest(ApiCases('test_2_info'))
-#suite.addTest(ApiCases('test_6_order'))
+suite.addTest(ApiCases('test_6_order'))
 
 runner = unittest.TextTestRunner()
 runner.run(suite)
