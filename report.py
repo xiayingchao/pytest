@@ -13,5 +13,6 @@ suite.addTest(ApiCases('test_2_info'))
 suite.addTest(ApiCases('test_6_order'))
 suite.addTest(ApiCases('test_1_list'))
 suite.addTest(ApiCases('test_3_list'))
+xiugug
 runner = unittest.TextTestRunner()
 runner.run(suite)
