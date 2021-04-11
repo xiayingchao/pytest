@@ -1,0 +1,4 @@
+- path: /recycler-api/fixed-sale/v2/item/order/submit
+  data:
+      saleNo:
+      receiveAddressId:

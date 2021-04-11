@@ -1,0 +1,4 @@
+2021/03/28/13:56:00 demo_log.py ERROR error 信息
+2021/03/28/13:56:00 demo_log.py INFO info 信息
+2021/03/28/13:56:00 demo_log.py WARNING warn 信息
+2021/03/28/13:56:00 demo_log.py CRITICAL critical 信息
