@@ -1,10 +1,10 @@
 import unittest
 from class202103271.cases.api_case import ApiCases
-#path = 'cases'
+path = 'cases'
 
-#discover = unittest.defaultTestLoader.discover(path,'api_case.py')
-#with open('./reporta/report1.txt','w') as f :
-#    unittest.TextTestRunner(stream=f).run(discover)
+discover = unittest.defaultTestLoader.discover(path,'api_case.py')
+with open('./reporta/report2.txt','w') as f :
+    unittest.TextTestRunner(stream=f).run(discover)
 
 ##创建测试套件
 suite = unittest.TestSuite()
