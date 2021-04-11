@@ -11,6 +11,6 @@ suite = unittest.TestSuite()
 #添加测试用例
 suite.addTest(ApiCases('test_2_info'))
 suite.addTest(ApiCases('test_6_order'))
-
+suite.addTest(ApiCases('test_1_list'))
 runner = unittest.TextTestRunner()
 runner.run(suite)
